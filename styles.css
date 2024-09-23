@@ -1,0 +1,91 @@
+body {
+    background-color: #000; /* Siyah arka plan */
+    color: #fff; /* Yazı rengi beyaz */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #ff0080;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #00bfff;
+}
+
+section {
+    padding: 20px;
+}
+
+.oyun {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    
+}
+
+.monster {
+    color: #fff; /* Beyaz renk */
+    font-size: 1.5em; /* Daha büyük font boyutu */
+}
+
+.vr-cafe {
+    color: #ff0080; /* LED pembe rengi */
+    font-size: 1em; /* Normal font boyutu */
+}
+
+.logo {
+    max-width: 300px; /* Logonun maksimum genişliği */
+    height: auto; /* Orantılı yükseklik */
+    display: block; /* Bloğa dönüştür */
+    margin: 0 auto; /* Ortalamak için */
+}
+
+
+
+
+
+.social-logo {
+    width: 50px; /* İstenilen boyutta ayarlayın */
+    height: 50px; /* İstenilen boyutta ayarlayın */
+    border-radius: 50%; /* Yuvarlak hale getirme */
+    object-fit: cover; /* Görüntünün alanı tam doldurmasını sağlar */
+    margin: 0 10px; /* Butonlar arasına boşluk ekler */
+    transition: transform 0.3s; /* Hover efekti için geçiş */
+}
+
+.social-logo:hover {
+    transform: scale(1.1); /* Hover'da büyütme efekti */
+}
