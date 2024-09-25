@@ -1,12 +1,10 @@
 body {
     background-color: #000; /* Siyah arka plan */
     color: #fff; /* Yazı rengi beyaz */
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-
 
 header {
     background: rgba(0, 0, 0, 0.5);
@@ -53,7 +51,6 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #222;
-    
 }
 
 .monster {
@@ -73,10 +70,6 @@ footer {
     margin: 0 auto; /* Ortalamak için */
 }
 
-
-
-
-
 .social-logo {
     width: 50px; /* İstenilen boyutta ayarlayın */
     height: 50px; /* İstenilen boyutta ayarlayın */
@@ -88,4 +81,43 @@ footer {
 
 .social-logo:hover {
     transform: scale(1.1); /* Hover'da büyütme efekti */
+}
+
+.games-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.game-item {
+    margin: 10px; /* Her bir oyun için boşluk */
+    text-align: center; /* Metin merkezde */
+    border: 3px solid rgba(0, 191, 255, 0.8); /* Mavi LED çerçeve */
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    padding: 10px; /* İçerik boşlukları */
+    transition: box-shadow 0.3s; /* Hover efekti için geçiş */
+}
+
+.game-item:hover {
+    box-shadow: 0 0 20px rgba(0, 191, 255, 1); /* Hover'da gölge efekti */
+}
+
+.game-img {
+    width: 150px; /* Resim genişliği */
+    height: auto; /* Orantılı yükseklik */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+}
+
+.game-button {
+    display: inline-block; /* Buton gibi görünmesini sağlar */
+    padding: 10px 15px; /* İçerik boşlukları */
+    background-color: #ff0080; /* Buton arka plan rengi */
+    color: #fff; /* Buton yazı rengi */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    text-decoration: none; /* Alt çizgi kaldırma */
+    margin-top: 5px; /* Üstte boşluk */
+}
+
+.game-button:hover {
+    background-color: #e60073; /* Hover durumunda rengi değiştirme */
 }
